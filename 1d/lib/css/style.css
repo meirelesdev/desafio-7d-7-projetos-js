@@ -32,12 +32,16 @@ h1 {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
+    cursor: pointer;
+}
+.key:hover{
+    background-color: rgb(119, 116, 116);
 }
 .key.active {
     border: 2px solid #FF0;
     color: #FF0;
+    background-color: rgb(119, 116, 116);
 }
-
 .composer {
     width: 260px;
     margin-top: 20px;

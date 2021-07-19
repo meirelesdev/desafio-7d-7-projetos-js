@@ -6,7 +6,9 @@ document.querySelector('.composer button').addEventListener('click', ()=>{
     let song = document.querySelector('#input').value
     if (song !== '') playComposition(song.split(''))
 })
-
+document.querySelector('div').addEventListener('click', event =>{
+    playSound(event.target.getAttribute('data-key'))
+})
 const playSound = sound => {
     let audioElement = document.querySelector(`#s_${sound}`)
     let keyElement = document.querySelector(`div[data-key="${sound}"]`)
