@@ -20,7 +20,7 @@ h1 {
 }
 
 .neutralArea {
-    width: 450px;
+    width: 80%;
     height: 150px;
     display: flex;
     justify-content: space-around;
@@ -42,15 +42,17 @@ h1 {
     opacity: 0.5;
 }
 .areas {
-    width: 450px;
+    width: 80%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 .areas.correct .area {
     border: 2px solid #00FF00;
 }
 .area {
-    width: 150px;
+    width: 150pc;
     height: 150px;
     border: 2px solid #FFF;
     display: flex;
